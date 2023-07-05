@@ -2,7 +2,11 @@ body{
     display: flex;
     flex-direction: column;
     flex: auto;
+    background-color: aquamarine;
 
+}
+.logo{
+    font-size: 2em;
 }
 
 main{
