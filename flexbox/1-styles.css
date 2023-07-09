@@ -307,8 +307,8 @@ HTML starter file
         </div>
       </section>
       <!– Contact section –>
-      <section class="section-contact">
-      /*id="contact" class="section" */
+      <section id="contact" class="section-contact">
+      /*class="section" */
         <div class="container">
           <header class="section-header">
             <h2 class="section-title">Contact</h2>
