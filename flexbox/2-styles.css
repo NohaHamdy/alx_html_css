@@ -46,7 +46,7 @@ HTML starter file
     <meta name="description" content="Description of the page less than 150 characters">
     <link rel="icon" type="image/png" href="images/favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='1-styles.css'>
+    <link rel='stylesheet' href='2-styles.css'>
   </head>
   <body>
     <!– Header –>
@@ -777,6 +777,11 @@ Click to expand/hide file contents
     padding: 10rem 40rem 2rem 0;
   }
   
+  /* Section Latest news ============================= */
+  .section-latest-news .row{
+    flex-direction: row-reverse;
+
+  }
   /*** 4. CARD ***/
   
   /* Card (all styles)
