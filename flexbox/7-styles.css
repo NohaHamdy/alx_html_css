@@ -457,11 +457,7 @@ Click to expand/hide file contents
     --section-footer-align: center;
   
     /** HEADER **/
-    .header-container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    
     --header-padding: 4rem 0 0;
     
     /** FOOTER **/
@@ -667,8 +663,11 @@ Click to expand/hide file contents
          z-index: 3;
          background: transparent;
   }
-  
-
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
   
   /* Footer
       ============================= */
