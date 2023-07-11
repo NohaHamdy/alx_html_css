@@ -46,7 +46,7 @@ HTML starter file
     <meta name="description" content="Description of the page less than 150 characters">
     <link rel="icon" type="image/png" href="images/favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='5-styles.css'>
+    <link rel='stylesheet' href='6-styles.css'>
   </head>
   <body>
     <!– Header –>
@@ -467,12 +467,13 @@ Click to expand/hide file contents
     --footer-padding: 5rem 0 1rem;
   
     /** NAVBAR **/
+
     --nav-item-font-family: var(--font-family-headings);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: .04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 2rem 0 0;
+    --nav-item-margin: 0 0 0 2rem;
     --nav-item-link-hover: var(--color-white);
   
     /** BUTTON **/
@@ -613,6 +614,7 @@ Click to expand/hide file contents
     padding: 0;
     list-style: none;
     text-align: center;
+    display: flex;
   }
   
   .nav .nav-item {
@@ -620,8 +622,12 @@ Click to expand/hide file contents
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
+ 
+  }
+
+  .nav .nav-item + .nav-item{
     margin: var(--nav-item-margin);
+
   }
   
   .nav .nav-link {
