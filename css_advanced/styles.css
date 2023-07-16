@@ -1,0 +1,39 @@
+.main_part{
+    background-image: url(images/Object.png);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+.header nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+.main_part .header nav a {
+    margin: 5px;
+}
+.main_part .background{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.main_part .background div{
+    align-self: center;
+}
+.main_part .background div #main_heading{
+    font-size: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.main_part .background div #items{
+    display: flex;
+    flex-direction: row;
+}
+.main_part .background div #items p{
+    color: #FFFFFF;
+    display: inline-flex;
+}
