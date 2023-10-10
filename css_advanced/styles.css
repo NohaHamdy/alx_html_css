@@ -1,6 +1,7 @@
 .main_part{
     background-image: url(images/Object.png);
 }
+
 .header{
     display: flex;
     justify-content: space-between;
